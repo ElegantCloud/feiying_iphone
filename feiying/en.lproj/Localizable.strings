@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  feiying
+
+  Created by  on 12-3-20.
+  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+*/
+
+// EGORefreshTableHeaderView
+"Last Updated" = "Last Updated";
+"Release to refresh..." = "Release to refresh...";
+"Pull down to refresh..." = "Pull down to refresh...";
+"Loading..." = "Loading...";
+
+// network access exception or error
+"network access exception or error" = "Can't connect to server, please check your network to keep smooth.";
