@@ -133,6 +133,7 @@
         _mUserNameInput.keyboardType = /*UIKeyboardTypeNumbersAndPunctuation*/UIKeyboardTypeNumberPad;
         // set delegate
         _mUserNameInput.delegate = self;
+
         // add userNameInput to regLoginStep1 array and components dictionary
         [_regLoginStep1Array addObject:@"手机号码"];
         [_mComponentsDic setObject:_mUserNameInput forKey:@"手机号码"];

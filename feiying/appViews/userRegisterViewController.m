@@ -136,7 +136,7 @@
         // set title
         _getValidateCodeButton.labelText.text = @"获取注册验证码";
         // add target
-        [_getValidateCodeButton addTarget:self action:@selector(getRegiValidateCode) forControlEvents:UIControlEventTouchUpInside];
+        [_getValidateCodeButton addTarget:self action:@selector(getRegisterValidateCode) forControlEvents:UIControlEventTouchUpInside];
         // add getValidateCodeButton to regStep1 array and components dictionary
         [_regStep1Array addObject:@"getValidateCodeButton"];
         [_mComponentsDic setObject:_getValidateCodeButton forKey:@"getValidateCodeButton"];

@@ -108,7 +108,6 @@
 		DCA96B4A14DA388900D8AB4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA96B4914DA388900D8AB4F /* Foundation.framework */; };
 		DCA96B4C14DA388900D8AB4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA96B4B14DA388900D8AB4F /* CoreGraphics.framework */; };
 		DCA96B4E14DA388900D8AB4F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA96B4D14DA388900D8AB4F /* CoreData.framework */; };
-		DCA96B5414DA388900D8AB4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCA96B5214DA388900D8AB4F /* InfoPlist.strings */; };
 		DCA96B5614DA388900D8AB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA96B5514DA388900D8AB4F /* main.m */; };
 		DCA96B5A14DA388900D8AB4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA96B5914DA388900D8AB4F /* AppDelegate.m */; };
 		DCA96B5D14DA388900D8AB4F /* feiying.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCA96B5B14DA388900D8AB4F /* feiying.xcdatamodeld */; };
@@ -144,6 +143,9 @@
 		DCF2BF0114EA652F00D7C734 /* tableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF2BF0014EA652F00D7C734 /* tableFooterView.m */; };
 		DCF2F88C1525690900127848 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		DCFCF3871518A32B00257CC2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCFCF3851518A32B00257CC2 /* Localizable.strings */; };
+		F8E3BEC9158EFE9600467088 /* feiying-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCFCF37B1518A18900257CC2 /* feiying-Info.plist */; };
+		F8E3BECD158EFEAA00467088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8E3BECB158EFEAA00467088 /* InfoPlist.strings */; };
+		F8E3BECF158EFEB300467088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8E3BECB158EFEAA00467088 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -177,7 +179,6 @@
 		DC843A8414E12BBD00D71717 /* videoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videoTableViewCell.h; path = customComponents/videoTableViewCell.h; sourceTree = "<group>"; };
 		DC843A8514E12BBD00D71717 /* videoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = videoTableViewCell.m; path = customComponents/videoTableViewCell.m; sourceTree = "<group>"; };
 		DC8622DC14F773FD00E33D15 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		DC8622DE14F77CEE00E33D15 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "/Users/rcbt/Documents/workspace/feiying/feiying/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
 		DC87819C15106A6800D66DE2 /* customButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = customButton.h; path = customComponents/customButton.h; sourceTree = "<group>"; };
 		DC87819D15106A6800D66DE2 /* customButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = customButton.m; path = customComponents/customButton.m; sourceTree = "<group>"; };
 		DC8781A0151085C800D66DE2 /* customPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = customPickerView.h; path = customComponents/customPickerView.h; sourceTree = "<group>"; };
@@ -313,7 +314,6 @@
 		DCA96B4914DA388900D8AB4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCA96B4B14DA388900D8AB4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DCA96B4D14DA388900D8AB4F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		DCA96B5314DA388900D8AB4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCA96B5514DA388900D8AB4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCA96B5714DA388900D8AB4F /* feiying-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "feiying-Prefix.pch"; sourceTree = "<group>"; };
 		DCA96B5814DA388900D8AB4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -363,6 +363,8 @@
 		DCFCF37B1518A18900257CC2 /* feiying-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "feiying-Info.plist"; sourceTree = "<group>"; };
 		DCFCF3861518A32B00257CC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DCFCF3881518A33D00257CC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F8E3BECC158EFEAA00467088 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F8E3BECE158EFEB300467088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -768,8 +770,8 @@
 		DCA96B5014DA388900D8AB4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8E3BECB158EFEAA00467088 /* InfoPlist.strings */,
 				DCFCF37B1518A18900257CC2 /* feiying-Info.plist */,
-				DCA96B5214DA388900D8AB4F /* InfoPlist.strings */,
 				DCA96B5514DA388900D8AB4F /* main.m */,
 				DCA96B5714DA388900D8AB4F /* feiying-Prefix.pch */,
 				DCFCF3851518A32B00257CC2 /* Localizable.strings */,
@@ -876,7 +878,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCA96B5414DA388900D8AB4F /* InfoPlist.strings in Resources */,
 				DC94470A14E8DCB0002819D6 /* icon.png in Resources */,
 				DC94470B14E8DCB0002819D6 /* icon@2x.png in Resources */,
 				DC94471814E8DCC3002819D6 /* channelTab.png in Resources */,
@@ -930,6 +931,9 @@
 				DCDF5F1B154526CA00FEA7D8 /* favTab@2x.png in Resources */,
 				DCDF5F1C154526CA00FEA7D8 /* moreTab@2x.png in Resources */,
 				DCDF5F1D154526CA00FEA7D8 /* shareTab@2x.png in Resources */,
+				F8E3BEC9158EFE9600467088 /* feiying-Info.plist in Resources */,
+				F8E3BECD158EFEAA00467088 /* InfoPlist.strings in Resources */,
+				F8E3BECF158EFEB300467088 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1016,15 +1020,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCA96B5214DA388900D8AB4F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCA96B5314DA388900D8AB4F /* en */,
-				DC8622DE14F77CEE00E33D15 /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		DCFCF3851518A32B00257CC2 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1032,6 +1027,15 @@
 				DCFCF3881518A33D00257CC2 /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F8E3BECB158EFEAA00467088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8E3BECC158EFEAA00467088 /* zh-Hans */,
+				F8E3BECE158EFEB300467088 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
